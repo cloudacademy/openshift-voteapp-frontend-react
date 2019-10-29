@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Recreate config file
-whoami
+echo env.sh script started...
 pwd
 ls -la
 
@@ -31,3 +31,7 @@ do
 done < .env
 
 echo "}" >> ./env-config.js
+
+cat ./env-config.js
+echo
+echo env.sh script finished!
