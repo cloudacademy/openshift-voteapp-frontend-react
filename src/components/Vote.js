@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import axios from 'axios'
 
 class Vote extends Component{
-  constructor () {
-    super();
+  constructor (props) {
+    super(props);
 
     //configure the APIHOSTPORT, this is the public IP address of the host that the API server is running on
     this.APIHOSTPORT = `${window._env_.REACT_APP_APIHOSTPORT}`;
 
     this.state = {
-      vote: 0
+      vote: this.props.count
     }
     
     this.handleClick = this.handleClick.bind(this)

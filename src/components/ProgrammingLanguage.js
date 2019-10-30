@@ -32,11 +32,12 @@ class ProgrammingLanguage extends Component {
       var usecase = this.state.language.codedetail.usecase;
       var rank = this.state.language.codedetail.rank;
       var homepage = this.state.language.codedetail.homepage;
+      var vote = this.state.language.codedetail.vote;
 
       return (
         <div class="container">
           <h2>{this.props.name}</h2>
-          <p><Vote id={this.props.id}/></p>
+          <p><Vote id={this.props.id} count={vote}/></p>
 
           <p><b>Uses</b>: {usecase}</p>
           <p><b>Rank</b>: {rank}</p>
