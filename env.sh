@@ -2,11 +2,14 @@
 
 # Recreate config file
 echo env.sh script started...
+whoami
 pwd
 ls -la
+echo
 
-rm -rf ./env-config.js
-touch ./env-config.js
+echo "" > ./env-config.js
+#rm -rf ./env-config.js
+#touch ./env-config.js
 
 # Add assignment 
 echo "window._env_ = {" >> ./env-config.js
