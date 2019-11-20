@@ -7,8 +7,8 @@ class VoteApp extends Component {
       <main role="main">
         <div class="jumbotron">
           <div class="container">
-            <h1 class="display-3">Language Vote App v1</h1>
-            &copy; CloudAcademy ❤ DevOps 2019 v2.9
+            <h1 class="display-3">Language Vote App v2</h1>
+            &copy; CloudAcademy ❤ DevOps 2019 v2.10.1
           </div>
         </div>
 
